@@ -33,7 +33,7 @@ body {
 .header__link-list-active::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 50px;
   bottom: 2px;
   position: absolute;
   border-bottom: 4px solid #0075ff;
