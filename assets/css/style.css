@@ -124,6 +124,10 @@ body {
     top: 120;
 }
 
+.card img {
+    margin-top: 20px;
+}
+
 .card .standard {
     background: #2D9CDB;
 }
