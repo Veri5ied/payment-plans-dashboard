@@ -89,6 +89,7 @@ body {
     font-size: 17px;
     border-radius: 5px;
     line-height: 27px;
+    margin-top: 40px;
 }
 
 .pricing {
@@ -120,6 +121,7 @@ body {
 
 .card span {
     padding-right: 1em;
+    top: 120;
 }
 
 .card .standard {
@@ -143,4 +145,38 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .fund .fund-account {
+       width: 350px;
+       height: 60px;
+       display: block;
+       padding: 1em;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .card .choose {
+       width: 300px;
+       height: 55px;
+       padding-top: 0.8em;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .fund .fund-account {
+        width: 300px;
+        height: 60px;
+        display: block;
+        padding: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card .choose {
+        width: 250px;
+        height: 50px;
+        padding-top: 0.5em;
+    }
 }
